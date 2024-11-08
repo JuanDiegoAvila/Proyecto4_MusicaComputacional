@@ -9,20 +9,20 @@ tempo = 120
 
 # Definir la matriz de transición (probabilidades entre notas)
 transition_matrix = [
-    [0.4, 0.3, 0.2, 0.1, 0.0], 
-    [0.3, 0.4, 0.2, 0.1, 0.0],
-    [0.2, 0.3, 0.4, 0.1, 0.0],
-    [0.1, 0.2, 0.4, 0.3, 0.0],
-    [0.0, 0.1, 0.2, 0.3, 0.4]
+    [0.25, 0.25, 0.2, 0.15, 0.15], 
+    [0.2, 0.25, 0.25, 0.2, 0.1],
+    [0.15, 0.2, 0.3, 0.2, 0.15],
+    [0.1, 0.2, 0.25, 0.3, 0.15],
+    [0.15, 0.1, 0.2, 0.25, 0.3]
 ]
 
-major_scale = [0, 2, 4, 5, 7, 9, 11]
+harmonic_minor_scale = [0, 2, 3, 5, 7, 8, 11]
 
 # Convertir el estado a tono MIDI
 def state_to_pitch(state, base_pitch=60):
-    scale_degree = state % len(major_scale)
-    octave = state // len(major_scale)
-    return base_pitch + major_scale[scale_degree] + 12 * octave
+    scale_degree = state % len(harmonic_minor_scale)
+    octave = state // len(harmonic_minor_scale)
+    return base_pitch + harmonic_minor_scale[scale_degree] + 12 * octave
 
 # Seleccionar la siguiente nota basada en probabilidades de la matriz
 def next_state(current_state):
