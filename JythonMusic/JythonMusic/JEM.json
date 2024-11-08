@@ -1,0 +1,10 @@
+{
+  "jrePath": "jre",
+  "classPath": [
+    "JEM.jar"
+  ],
+  "mainClass": "tigerjython.core.JEM",
+  "useZgcIfSupportedOs": false,
+  "vmArgs": [
+  ]
+}
