@@ -4,12 +4,12 @@
         {
             "label": "JythonMusic",
             "type": "shell",
-            "command": "sh /Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto2_MusicaComputacional/JythonMusic/JythonMusic/jython.sh \"${file}\" ",
+            "command": "sh /Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto4_MusicaComputacional/JythonMusic/JythonMusic/jython.sh \"${file}\" ",
             "windows": {
-                "command": "/Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto2_MusicaComputacional/JythonMusic/JythonMusic/jython \"${file}\" "
+                "command": "/Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto4_MusicaComputacional/JythonMusic/JythonMusic/jython \"${file}\" "
             },
             "options": {
-                "cwd": "/Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto2_MusicaComputacional/JythonMusic/JythonMusic"
+                "cwd": "/Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto4_MusicaComputacional/JythonMusic/JythonMusic"
             },
             "group": {
                 "kind": "build",
