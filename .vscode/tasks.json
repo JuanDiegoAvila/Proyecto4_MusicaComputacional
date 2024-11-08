@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "JythonMusic",
+            "type": "shell",
+            "command": "sh /Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto2_MusicaComputacional/JythonMusic/JythonMusic/jython.sh \"${file}\" ",
+            "windows": {
+                "command": "/Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto2_MusicaComputacional/JythonMusic/JythonMusic/jython \"${file}\" "
+            },
+            "options": {
+                "cwd": "/Users/juana/Documents/UVG/Quinto-2024/Musica_Computacional/Proyecto2_MusicaComputacional/JythonMusic/JythonMusic"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": "true"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+  }

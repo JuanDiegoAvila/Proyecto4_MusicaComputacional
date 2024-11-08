@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./JythonMusic/JythonMusic/library"
+    ],
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.typeCheckingMode": "off"
+}
